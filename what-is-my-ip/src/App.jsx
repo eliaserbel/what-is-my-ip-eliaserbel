@@ -20,7 +20,11 @@ function App() {
           </div>
         ) : (
           <Card
-            style={{ width: "18rem", border: "1px solid black" }}
+            style={{
+              width: "18rem",
+              border: "1px solid black",
+              padding: "10px",
+            }}
             className="card"
           >
             <Card.Img
